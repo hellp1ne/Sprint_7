@@ -1,6 +1,8 @@
+package json;
+
 import java.util.List;
 
-public class Order {
+public class CreateOrderRequest {
 
     private String firstName;
     private String lastName;
@@ -13,8 +15,8 @@ public class Order {
     private List<String> color;
 
     // Constructor
-    public Order(String firstName, String lastName, String address, int metroStation, String phone,
-                 int rentTime, String deliveryDate, String comment, List<String> color) {
+    public CreateOrderRequest(String firstName, String lastName, String address, int metroStation, String phone,
+                              int rentTime, String deliveryDate, String comment, List<String> color) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
