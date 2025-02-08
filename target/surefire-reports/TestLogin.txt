@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestLogin
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.477 s <<< FAILURE! - in TestLogin
+checkWithoutPasswordTest(TestLogin)  Time elapsed: 60.923 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <504>.
+
+	at TestLogin.validateErrorResponse(TestLogin.java:81)
+	at TestLogin.checkWithoutPasswordTest(TestLogin.java:56)
+
